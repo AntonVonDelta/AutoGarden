@@ -46,6 +46,14 @@ Alimentare de 220V se face la locurile marcate in schema ca `SURSA_AC_NUL` si `S
  - Salvarea tuturor setarilor in memorie non-volatila
  - Auto-reconectarea la reteaua WIFI
 
+# Instalare software
+Sunt necesari cativa pasi pentru a putea folosi codul:
+ - in `ESP32_AutoGradina/ESP32_AutoGradina.ino` schimba valorile:
+   - `YOUR SSID` cu SSID-ul tau
+   - `YOUR PASSWORD` cu parola WIFI-ului
+   - `YOUR ARDUINO OTA PASSWORD` cu un cod lung si unic. Aceasta va fi parola ceruta de Arduino pentru a reprograma microprocesorul de la distanta.  
+ - schimbarea imaginii gradinii. Vezi sectiunea `Intructiuni`
+ - copierea librariilor din folderul `libraries` in folderul `libraries` din Arduino
 
 # Pagini web
 Exista 3 ferestre:
