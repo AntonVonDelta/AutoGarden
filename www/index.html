@@ -1,0 +1,44 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<div class="header_wrapper">
+		<div style="border-right: 2px solid grey;background: lightgrey;"><a style="text-decoration:none;color:black;" href="timer">Timer</a></div>
+		<div><a style="text-decoration:none;color:black" href="gradina">Gradina</a></div>
+	</div>
+	<div id="ajax_status" style="text-align: right; padding: 20px 102px; margin-bottom: 20px; background-color: white;"></div>
+	<div class="page">
+		<div>
+			<div class="input_box"><label>Cat timp sta deschis</label><input class="input_box_value" id="timer_opened_time" type="text"></div>
+			<div class="input_box"><label>Cat timp sta inchis</label><input class="input_box_value" id="timer_closed_time" type="text"></div>
+		</div>
+	</div>
+	<div class="page">
+		<div class="btn_wrapper"><button class="btn" id="timer_update_btn" disabled>Salveaza</button><button class="btn" id="timer_pause_btn">Pauza</button><button class="btn" id="timer_start_btn"> Porneste pentru
+				<select id="timeouts">
+					<option value="2">2</option>
+					<option value="5">5</option>
+					<option value="7">7</option>
+					<option value="10">10</option>
+					<option value="12">12</option>
+					<option value="15">15</option>
+					<option value="20">20</option>
+				</select> min </button></div>
+	</div>
+	<div class="page" style="font-size:40px;">
+		<div>Stare curenta: <span id="timer_state" class="highlight">?</span>. </div>
+		<div>Cronometrul principal: <span id="timer_remaining" class="highlight">?</span> minute pana la <span id="timer_primary_next_state" class="highlight">?</span>.</div>
+		<div>Cronometrul secundar: <span id="timer_secondary_remaining" class="highlight">?</span> minute pana la oprire.</div>
+	</div>
+</body>
+
+</html>

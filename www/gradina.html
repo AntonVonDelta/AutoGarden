@@ -1,0 +1,129 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script_garden.js"></script>
+</head>
+
+<body>
+	<div class="header_wrapper">
+		<div style="border-right: 2px solid grey;"><a style="text-decoration:none;color:black;" href="timer">Timer</a>
+		</div>
+		<div style="background: lightgrey;"><a style="text-decoration:none;color:black;" href="gradina">Gradina</a>
+		</div>
+	</div>
+	<div id="ajax_status" style="text-align: right; padding: 20px 102px; margin-bottom: 20px; background-color: white;"></div>
+
+	<svg preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1771 352" width="100%">
+		<defs>
+			<radialGradient gradientTransform="rotate(-4,0.7578125,0.5562500953674316) translate(0,0.2646983212438123) scale(1,0.5241379310344827)" r="0.62306" cy="0.55625" cx="0.75781" spreadMethod="pad" id="svg_40">
+			 <stop offset="0" stop-color="#c67d7b"/>
+			 <stop offset="1" stop-opacity="0.99609" stop-color="#a35f67"/>
+			</radialGradient>
+			<linearGradient y2="0" x2="0" y1="0" x1="1" id="svg_42">
+			 <stop offset="0" stop-color="#948e8c"/>
+			 <stop offset="1" stop-color="#6b7173"/>
+			</linearGradient>
+			<linearGradient y2="0" x2="0" y1="1" x1="0" id="svg_45">
+			 <stop offset="0" stop-color="#bdcbd6"/>
+			 <stop offset="1" stop-opacity="0.99219" stop-color="#9ea9b2"/>
+			</linearGradient>
+		   </defs>
+		   <g>
+			<title>background</title>
+			<rect fill="#f7ebe7" id="canvas_background" height="354" width="1773" y="-1" x="-1"/>
+			<g display="none" id="canvasGrid">
+			 <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%" id="svg_3"/>
+			</g>
+		   </g>
+		   <g>
+			<title>Layer 1</title>
+			<rect id="svg_1" height="323.99998" width="61.00001" y="-2.05" x="1.5" stroke-width="1.5" stroke="#000" fill="#667856"/>
+			<rect id="svg_2" height="26" width="553.35293" y="324.95" x="-1.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#f7f4f4"/>
+			<path id="svg_4" d="m64.5,-11.04999l0.70952,335.04984l222.06274,0.00615l4.25714,-150.80642l-126.98655,0l-4.25714,-173.06608l-95.78571,-0.05059l0,-11.1329z" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="url(#svg_42)"/>
+			<rect id="svg_5" height="74" width="142" y="-0.04999" x="162.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="url(#svg_45)"/>
+			<path id="svg_6" d="m305.5,2.95001" opacity="0.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#c6c4fc"/>
+			<path id="svg_7" d="m306.60802,1.0715l-0.60802,135.40165l196.99777,0l1.21604,53.01023l126.4677,1.22506l160.5167,15.69309l57.15367,0l3.64811,-206.40153l-545.39197,1.0715z" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="url(#svg_40)"/>
+			<rect id="svg_8" height="82.64706" width="295.11764" y="271.4206" x="554.85294" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#bc742b"/>
+			<line stroke-linecap="null" stroke-linejoin="null" id="svg_16" y2="352.95001" x2="462.5" y1="326.95001" x1="462.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+			<line stroke-linecap="null" stroke-linejoin="null" id="svg_17" y2="348.95001" x2="417.5" y1="323.95001" x1="417.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+			<line stroke-linecap="null" stroke-linejoin="null" id="svg_19" y2="366.95001" x2="374.5" y1="324.95001" x1="374.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+			<line stroke-linecap="null" stroke-linejoin="null" id="svg_20" y2="392.95001" x2="317.5" y1="324.95001" x1="315.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+			<rect id="svg_21" height="174" width="193" y="17.23529" x="874.20588" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#667856"/>
+			<rect id="svg_28" height="181.17646" width="137.11763" y="11.05884" x="1148.47052" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#667856"/>
+			<rect id="svg_29" height="180.99999" width="133.5294" y="11.23529" x="1298.23521" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#667856"/>
+			<rect id="svg_30" height="180.82353" width="127.05882" y="11.41177" x="1443.41168" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#667856"/>
+			<rect id="svg_31" height="180.82351" width="124.70587" y="11.41177" x="1585.29402" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#667856"/>
+			<rect id="svg_32" height="64.70588" width="923.52935" y="285.70588" x="849.58819" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#bc742b"/>
+			<line stroke-linecap="null" stroke-linejoin="null" id="svg_33" y2="208.88235" x2="861.38239" y1="273.58823" x1="843.73533" fill-opacity="null" stroke-opacity="null" stroke-width="6.5" stroke="#000" fill="none"/>
+			<line stroke-linecap="null" stroke-linejoin="null" id="svg_34" y2="138.29411" x2="306.08825" y1="177.11764" x1="284.91179" fill-opacity="null" stroke-opacity="null" stroke-width="6.5" stroke="#000" fill="none"/>
+			<rect id="svg_36" height="52.94118" width="45.88235" y="139.04411" x="1090.79417" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
+			<text fill="#ffffff" stroke="#000" stroke-width="0" stroke-opacity="null" x="953.76418" y="108.59265" id="svg_9" font-size="39" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" font-weight="normal">1</text>
+			<text fill="#ffffff" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" y="108.59265" id="svg_10" font-size="39" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" x="1202">2</text>
+			<text fill="#ffffff" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="1354" y="108.59265" id="svg_11" font-size="39" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">3</text>
+			<text fill="#ffffff" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="1490" y="108.59265" id="svg_12" font-size="39" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">4</text>
+			<text fill="#ffffff" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="1635" y="108.59265" id="svg_14" font-size="39" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">5</text>
+			<text fill="#ffffff" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="25" y="178.95001" id="svg_15" font-size="39" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">6</text>
+		   </g>
+	</svg>
+
+	<div class="page">
+		<div class="btn_wrapper">
+			<button class="btn" id="garden_pause_btn" disabled>Pauza</button>
+		</div>
+	</div>
+
+	<div id="garden_list_template" style="display: none;">
+		<li>
+			<div style="display: flex;">
+				<div class="input_box" style="margin-right:10px"><input class="input_box_value input_schedule_start" type="text"></div>
+				<div class="input_box"><input class="input_box_value input_schedule_end" type="text"></div>
+			</div>
+			<div class="list_wrapper">
+				<ul class="week_days_list">
+					<li>L<input type="checkbox" class="day_state"  data-day="0"></li>
+					<li>Ma<input type="checkbox" class="day_state"  data-day="1"></li>
+					<li>Mi<input type="checkbox" class="day_state"  data-day="2"></li>
+					<li>J<input type="checkbox" class="day_state"  data-day="3"></li>
+					<li>V<input type="checkbox" class="day_state"  data-day="4"></li>
+					<li>S<input type="checkbox" class="day_state"  data-day="5"></li>
+					<li>D<input type="checkbox" class="day_state"  data-day="6"></li>
+				</ul>
+			</div>
+			<div class="list_wrapper">
+				<ul style="list-style: none;" class="components_list">
+					<li>Zona 1 <input type="checkbox" class="component_state" data-type="valve" data-component="0"></li>
+					<li>Zona 2 <input type="checkbox" class="component_state" data-type="valve" data-component="1"></li>
+					<li>Zona 3 <input type="checkbox" class="component_state" data-type="valve" data-component="2"></li>
+					<li>Zona 4 <input type="checkbox" class="component_state" data-type="valve" data-component="3"></li>
+					<li>Zona 5 <input type="checkbox" class="component_state" data-type="valve" data-component="4"></li>
+					<li>Releu 1 <input type="checkbox" class="component_state" data-type="relay" data-component="0"></li>
+					<li>Releu 2 <input type="checkbox" class="component_state" data-type="relay" data-component="1"></li>
+				</ul>
+			</div>
+		</li>
+	</div>
+	<div class="page garden_page">
+		<div class="garden_page_content">
+			<div>
+				Programari
+				<hr>
+			</div>
+			<ol class="garden_schedule_list">
+				<li style="list-style: none;display:flex;justify-content: center;" data-controls="true">
+					<div class="btn_wrapper">
+						<button class="btn" id="garden_add_schedule" disabled>Adauga programare</button>
+						<button class="btn" id="garden_save" disabled>Salveaza</button>
+					</div>
+				</li>
+			</ol>
+		</div>
+	</div>
+</body>
+
+</html>

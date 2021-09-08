@@ -1,0 +1,133 @@
+body{
+  margin:0;
+}
+.header_wrapper {
+  font-size: 35px;
+  border-bottom: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+ }
+ .header_wrapper div {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+  padding: 6px 0;
+ }
+ .input_box {
+  padding:6px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .input_box label {
+  margin-right: 17px;
+ }
+ .input_box_value {
+  width:100px;
+  min-height:37px;
+  align-self:stretch;
+ }
+ .page {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .btn_wrapper {
+  display:flex;
+ }
+ .btn {
+  min-height:46px;
+  align-self:stretch;
+  font-size: 19px;
+  margin: 33px auto;
+  flex-grow:1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 220px;
+ }
+ .highlight {
+  color:red;
+ }
+ #timeouts{
+   align-self:stretch;
+   font-size:inherit;
+ }
+
+ .garden_page_content{
+  min-width:80%;  
+}
+ .garden_schedule_list .input_box .input_box_value{
+  width:70px;
+ }
+  .list_wrapper{
+   font-size:24px;
+  }
+  .list_wrapper ul li{
+    display: flex;
+    align-items: center;
+  }
+  .list_wrapper .week_days_list{
+    display: flex;
+  }
+  .list_wrapper .week_days_list li{
+    /* margin-right:20px; */
+    flex:1;
+  }
+  .list_wrapper .component_state{
+    margin-left: 20px;
+  }
+  input[type='checkbox']{
+    transform:scale(1.3)
+  }
+
+ @media (max-device-width: 800px){
+  #ajax_status{
+    font-size:50px;
+  }
+  .header_wrapper {
+    font-size: 80px;
+   }
+  .page {
+    font-size:80px;
+  }
+  input{
+    font-size:50px;
+  }
+  .btn_wrapper {
+    width:100%;
+   }
+  .btn{
+    font-size:50px;
+    height:100px;
+    min-width: unset;
+  }
+  
+
+  /* .garden_page_content{
+    min-width:unset;
+    min-width:80%;
+  } */
+  .garden_schedule_list .input_box .input_box_value{
+    width:270px;
+   }
+   .list_wrapper{
+    font-size:54px;
+  }
+  .list_wrapper .week_days_list li{
+    margin-right:30px;
+  }
+  .list_wrapper .day_state{
+    margin-left:20px;
+  }
+  .list_wrapper .component_state{
+    margin-left: 100px;
+  }
+  input[type='checkbox']{
+    transform:scale(4)
+  }
+}
