@@ -6,7 +6,7 @@ Circuitul este potrivit daca:
  - Doresti o interfata web pentru a controla tot sistemul si pentru a programa pe ore si zile udarea gradinii
  - Doresti un proiect autonom in lipsa internetului
 
-Desigur pot fi contruite doar sectiuni din proiect care sa excluda, de exemplu, contactorul.
+Desigur pot fi construite doar sectiuni din proiect care sa excluda, de exemplu, contactorul.
 
 # Componente electrice
  - O sursa de alimentare ce poate furniza 12V cu 3A, 5V cu 1A
@@ -23,8 +23,8 @@ Desigur pot fi contruite doar sectiuni din proiect care sa excluda, de exemplu, 
  
  
 # Alimentare
-Alimentare de joasa tensiune se face printr-un conector de 3 pini: 12V, 5V si GND(minus).
-Alimentare de 220V se face la locurile marcate in schema ca `SURSA_AC_NUL` si `SURSA_AC_FAZA`
+Alimentarea de joasa tensiune se face printr-un conector de 3 pini: 12V, 5V si GND(minus).
+Alimentarea de 220V se face la locurile marcate in schema ca `SURSA_AC_NUL` si `SURSA_AC_FAZA`
 
 # Caracteristici
  - Controlul de la distanta a intregului sistem
@@ -35,7 +35,7 @@ Alimentare de 220V se face la locurile marcate in schema ca `SURSA_AC_NUL` si `S
    - 1 port conectat la un contactor ce permite deschiderea directa a pompei sau a altor aparate de putere
    - 1 port de mica putere pentru orice alta necesitate
  - Posibilitatea in cod si in schema electronica de a mai adauga porturi de 12V sau relee.
- - Timp sincronizat pe internet. In cazul lipsei de conectiune la internet ceasul intern este folosit
+ - Timp sincronizat de pe internet. In cazul lipsei de conectiune la internet ceasul intern este folosit
  - Reprogramare sigura de la distanta cu parola ( Nu este nevoie sa reprogramati microprocesorul prin usb )
  - O serie de comenzi pentru "depanarea" de la distanta. Optiunile includ:
    - puterea semnalului
@@ -45,6 +45,7 @@ Alimentare de 220V se face la locurile marcate in schema ca `SURSA_AC_NUL` si `S
  - Auto-resetarea in cazul in care se blocheaza microprocesorul
  - Salvarea tuturor setarilor in memorie non-volatila
  - Auto-reconectarea la reteaua WIFI
+ - Colorarea in albastru pe imaginea gradinii a zonei active
 
 # Instalare software
 Sunt necesari cativa pasi pentru a putea folosi codul:
