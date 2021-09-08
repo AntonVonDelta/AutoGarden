@@ -28,7 +28,7 @@ Alimentare de 220V se face la locurile marcate in schema ca `SURSA_AC_NUL` si `S
 
 # Caracteristici
  - Controlul de la distanta a intregului sistem
- - 50 de posibile programari ale electrovalvelor cu variabile: zile de activitate, intervalul de functionare si electrovalva/releul ce va fi activat.
+ - 50 de posibile programari ale electrovalvelor cu variabilele: zile de activitate, intervalul de functionare si electrovalva/releul ce va fi activat.
  - 5 porturi pentru electrovalve la 12V
  - 3 porturi la 220V cu proprietatile (activate de relee):
    - 1 port de mica putere pentru deschiderea unei electrovalve la 220V ( la care este conectata pompa de apa )
