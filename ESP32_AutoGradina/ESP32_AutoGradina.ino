@@ -176,7 +176,7 @@ void setup(void) {
     esp_task_wdt_add(NULL);               // add current thread to WDT watch
 	
     // Enable OTA authentification
-    ArduinoOTA.setPassword("YOUR ARDUINO OTA PASSWORD%)(4:_>';_");
+    ArduinoOTA.setPassword("YOUR ARDUINO OTA PASSWORD");
     reset_code = esp_reset_reason();
    
     prefs.begin("FatherProj", false);
