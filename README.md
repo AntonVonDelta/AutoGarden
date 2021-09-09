@@ -16,10 +16,10 @@ Desigur pot fi construite doar sectiuni din proiect care sa excluda, de exemplu,
  - 5 mosfeturi IRLZ44N.  ( **Atentie!** Acesta e un mosfet de nivel TTL adica de 5V. Nu-l incurcati cu IRFZ44N )
  - 8 rezistente de 10k
  - 5 rezistente de 100ohm
- - 3 relee
+ - 3 relee 12V 0.36W/400ohm ( **obligatoriu putere mai mica sau egala decat aceasta** )
  - Ceas RTC modul DS3231 ( **obligatoriu** )
  - 1 contactor
- - 5 electrovalve 12V 5W
+ - 5 electrovalve 12V 5W/28ohm
  
  
 # Alimentare
@@ -53,7 +53,7 @@ Sunt necesari cativa pasi pentru a putea folosi codul:
    - `YOUR SSID` cu SSID-ul tau
    - `YOUR PASSWORD` cu parola WIFI-ului
    - `YOUR ARDUINO OTA PASSWORD` cu un cod lung si unic. Aceasta va fi parola ceruta de Arduino pentru a reprograma microprocesorul de la distanta.  
- - schimbarea imaginii gradinii. Vezi sectiunea `Intructiuni`
+ - schimbarea imaginii gradinii. Vezi sectiunea `Instructiuni`
  - copierea librariilor din folderul `libraries` in folderul `libraries` din Arduino
 
 # Pagini web
