@@ -53,7 +53,7 @@ Sunt necesari cativa pasi pentru a putea folosi codul:
    - `YOUR SSID` cu SSID-ul tau
    - `YOUR PASSWORD` cu parola WIFI-ului
    - `YOUR ARDUINO OTA PASSWORD` cu un cod lung si unic. Aceasta va fi parola ceruta de Arduino pentru a reprograma microprocesorul de la distanta.  
- - schimbarea imaginii gradinii. Vezi sectiunea `Intructiuni`
+ - schimbarea imaginii gradinii. Vezi sectiunea `Instructiuni`
  - copierea librariilor din folderul `libraries` in folderul `libraries` din Arduino
 
 # Pagini web
