@@ -32,9 +32,9 @@ Alimentarea de 220V se face la locurile marcate in schema ca `SURSA_AC_NUL` si `
  - 50 de posibile programari ale electrovalvelor cu variabilele: zile de activitate, intervalul de functionare si electrovalva/releul ce va fi activat.
  - 5 porturi pentru electrovalve la 12V
  - 3 porturi la 220V cu proprietatile (activate de relee):
-   - 1 port de mica putere pentru deschiderea unei electrovalve la 220V ( la care este conectata pompa de apa )
+   - 1 port pentru deschiderea unei electrovalve la 220V ( la care este conectata pompa de apa )
    - 1 port conectat la un contactor ce permite deschiderea directa a pompei sau a altor aparate de putere
-   - 1 port de mica putere pentru orice alta necesitate
+   - 1 port pentru orice alta necesitate
  - Posibilitatea in cod si in schema electronica de a mai adauga porturi de 12V sau relee.
  - Timp sincronizat de pe internet. In cazul lipsei de conectiune la internet ceasul intern este folosit
  - Reprogramare sigura de la distanta cu parola ( Nu este nevoie sa reprogramati microprocesorul prin usb )
