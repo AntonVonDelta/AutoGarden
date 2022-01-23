@@ -3,8 +3,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=kicad
 
 ### KiCad ###
-# For PCBs designed using KiCad: http://www.kicad-pcb.org/
-# Format documentation: http://kicad-pcb.org/help/file-formats/
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
 
 # Temporary files
 *.000
@@ -12,6 +12,7 @@
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
+*-backups
 *.kicad_prl
 *.sch-bak
 *~
@@ -31,15 +32,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
-
-### KiCad Patch ###
-rescue-backup/
-
-*.tsv
-bom/
-
-# Gerber export output
-out/
 
 # End of https://www.toptal.com/developers/gitignore/api/kicad
 
